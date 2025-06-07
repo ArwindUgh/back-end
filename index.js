@@ -42,7 +42,7 @@ const app = express();
 
 // Allow requests from your frontend
 app.use(cors({
-  origin: '*', // You can specify other domains or '*' for all domains
+  origin: 'tellybeats.com', // You can specify other domains or '*' for all domains
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true,
 }));

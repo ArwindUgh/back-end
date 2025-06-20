@@ -18,8 +18,8 @@ import cors from 'cors';
 
 
 // MongoDB connection
-const mongoUri = 'mongodb+srv://arwindughrejiya3:Arwind@cluster0.t76grr0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'; // Retrieve the MongoDB URI
-console.log('Mongo URI:', mongoUri);
+const mongoUri = 'mongodb+srv://ArwindUghrejiya:Arwind@cluster0.szrwasu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'; // Retrieve the MongoDB URI
+
 
 if (!mongoUri) {
   console.error('Error: MongoDB URI (MONGO) is not defined in the .env file.');

@@ -42,7 +42,7 @@ const app = express();
 
 // Allow requests from your frontend
 
-  const allowedOrigins = ['http://localhost:3000', 'https://tellybeats.com'];
+  const allowedOrigins = ['http://localhost:3000', 'https://televisionsshow.com'];
 
 app.use(cors({
   origin: function (origin, callback) {
